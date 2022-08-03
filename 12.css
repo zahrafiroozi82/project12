@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: wheat;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  position: fixed;
+  z-index: 5;
+}
+.logo {
+  position: relative;
+  left: 800px;
+}
+.menu {
+  position: relative;
+  left: 950px;
+}
+.News {
+  font-size: x-large;
+  font-weight: bold;
+  position: relative;
+  padding-left: 20px;
+}
+.Grid {
+  color: brown;
+}
+.face-img {
+  width: 20px;
+  height: 20px;
+}
+.to-img {
+  width: 20px;
+  height: 20px;
+}
+.in-img {
+  width: 20px;
+  height: 20px;
+}
+.you-img {
+  width: 20px;
+  height: 20px;
+}
+.ul1 {
+  display: flex;
+  flex-direction: row;
+}
+.li1 {
+  list-style: none;
+  font-size: large;
+}
+.HOME {
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.HOME:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+.ABOUT1 {
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.ABOUT1:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+.HOME1 {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 5px;
+}
+.HOME2 {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 5px;
+}
+.ABOUT {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 5px;
+}
+.some {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(92, 89, 89, 0.8);
+  background-image: url(./img/sport.webp);
+  background-blend-mode: multiply;
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+.contaner {
+  width: 600px;
+  position: relative;
+  top: 150px;
+  left: 100px;
+}
+.p1 {
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  padding: 5px;
+  border-radius: 20px;
+}
+.h1 {
+  color: white;
+}
+.p2 {
+  color: white;
+  font-weight: bold;
+}
+.read-more {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+}
+.thre1 {
+  display: flex;
+  justify-content: space-around;
+}
+.thre2 {
+  display: flex;
+  justify-content: space-around;
+}
+.div1 {
+  background-image: url(./img/adam.jpg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  width: 420px;
+  height: 200px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div1:hover {
+  transform: scale(1.2, 1.2);
+}
+.div2 {
+  background-color: white;
+  width: 420px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div2:hover {
+  transform: scale(1.2, 1.2);
+}
+.div3 {
+  background-color: black;
+  width: 420px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div3:hover {
+  transform: scale(1.2, 1.2);
+}
+.div4 {
+  background-color: white;
+  width: 420px;
+  height: 450px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div4:hover {
+  transform: scale(1.2, 1.2);
+}
+.div5 {
+  background-color: white;
+  width: 420px;
+  height: 450px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div5:hover {
+  transform: scale(1.2, 1.2);
+}
+.div6 {
+  background-color: white;
+  width: 420px;
+  height: 450px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div6:hover {
+  transform: scale(1.2, 1.2);
+}
+.div7 {
+  background-color: red;
+  background-repeat: repeat-x;
+  background-size: contain;
+  width: 420px;
+  height: 200px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div7:hover {
+  transform: scale(1.2, 1.2);
+}
+.div8 {
+  background-color: white;
+  width: 420px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div8:hover {
+  transform: scale(1.2, 1.2);
+}
+.div9 {
+  background-image: url(./img/ki2.jpg);
+  background-size: cover;
+  width: 420px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.div9:hover {
+  transform: scale(1.2, 1.2);
+}
+.p3 {
+  background-color: purple;
+  color: ;
+  font-weight: bold;
+  display: inline;
+  padding: 5px;
+  border-radius: 20px;
+}
+.p5 {
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  padding: 5px;
+  border-radius: 20px;
+}
+.p6 {
+  color: white;
+}
+.h3 {
+  color: white;
+}
+.sim {
+  width: 410px;
+  height: 200px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.p7 {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  padding: 5px;
+  border-radius: 20px;
+}
+.zahra {
+  padding: 20px;
+}
+.do {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  right: 10px;
+}
+.news1 {
+  width: 300px;
+}
+.news2 {
+  width: 300px;
+  position: relative;
+  left: 70px;
+}
+.grid1 {
+  font-size: 25px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 180px;
+  justify-content: space-around;
+  background-color: rgba(49, 47, 47, 0.9);
+  color: white;
+  padding-top: 10px;
+}
+.ul2 {
+  list-style: none;
+}
+.li2 {
+  text-decoration: none;
+  color: white;
+}
+.li2:hover {
+  text-decoration: none;
+  color: red;
+}
+#email {
+  width: 100%;
+  height: 25px;
+  padding-left: 10px;
+}
+#submit {
+  width: 100%;
+  height: 25px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bolder;
+}
+#join {
+  background-color: orangered;
+  color: white;
+  border: none;
+  font-weight: bolder;
+  padding: 10px;
+}
+.matn {
+  width: 700px;
+  height: 400px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-left: 100px;
+}
+.matn1 {
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-left: 100px;
+}
+.join-our {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(128, 26, 26);
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  left: 30px;
+}
+.joinn {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  font-weight: bold;
+}
+.about-our {
+  display: flex;
+  flex-direction: row;
+}
+.written {
+  display: flex;
+  flex-direction: row;
+}
+.adam {
+  width: 100%;
+  height: 300px;
+}
+.aa {
+  text-decoration: none;
+  color: black;
+}
+.ll {
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+  left: 5px;
+  bottom: 3px;
+}
